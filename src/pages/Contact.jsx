@@ -5,6 +5,7 @@ import { Badge } from "../components/ui/badge";
 import Footer from "../components/Footer";
 import SEO from "../components/SEO";
 import emailjs from "@emailjs/browser";
+import {Link} from "react-router-dom"
 import {
   Phone,
   Mail,
