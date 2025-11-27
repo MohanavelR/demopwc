@@ -1,0 +1,55 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://proflexwindowprofiles.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all search engines to crawl all content
+Disallow:
+
+# Block access to admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow access to CSS and JS files
+Allow: /static/css/
+Allow: /static/js/
+Allow: /static/media/
+
+# Block access to build files and source maps
+Disallow: /build/
+Disallow: /*.map$
+
+# Allow access to images
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Block access to temporary files
+Disallow: /*.tmp$
+Disallow: /*.temp$
+Disallow: /temp/
+Disallow: /tmp/
+
+# Allow access to PDF files (brochures, technical specs)
+Allow: /*.pdf$
+
+# Block access to log files
+Disallow: /*.log$
+Disallow: /logs/
+
+# Allow access to favicon and manifest
+Allow: /favicon.ico
+Allow: /manifest.json
+Allow: /apple-touch-icon.png
+Allow: /favicon-32x32.png
+Allow: /favicon-16x16.png
+
+
