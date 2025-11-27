@@ -236,6 +236,13 @@ const Contact = () => {
       {/* Contact Form & Info */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
+          <div>
+      <Link to="/manufacturers-in-india" >India</Link>
+      <Link to="/manufacturers-in-hyderabad" >/manufacturers-in-hyderabad</Link>
+      <Link to="/manufacturers-in-coimbatore" >/manufacturers-in-coimbatore</Link>
+      <Link to="/manufacturers-in-chennai" >/manufacturers-in-chennai</Link>
+      <Link to="/manufacturers-in-bangalore" >/manufacturers-in-bangalore</Link>
+    </div>
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
             {/* Contact Form */}
             <Card
